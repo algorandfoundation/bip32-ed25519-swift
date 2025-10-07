@@ -8,7 +8,7 @@ let package = Package(
     platforms: [
         .iOS(.v15),
         .watchOS(.v9),
-        .macOS(.v12),
+        .macOS(.v13),
     ],
     products: [
         .library(
@@ -22,8 +22,8 @@ let package = Package(
         .package(url: "https://github.com/algorandfoundation/swift-sodium-full.git", from: "1.0.0"),
         .package(url: "https://github.com/attaswift/BigInt.git", from: "5.2.1"),
         .package(url: "https://github.com/Electric-Coin-Company/MnemonicSwift.git", from: "2.2.4"),
-        .package(url: "https://github.com/realm/SwiftLint", from: "0.55.0"),
-        .package(url: "https://github.com/nicklockwood/SwiftFormat", from: "0.53.9"),
+        .package(url: "https://github.com/realm/SwiftLint", from: "0.59.1"),
+        .package(url: "https://github.com/nicklockwood/SwiftFormat", from: "0.57.2"),
         .package(url: "https://github.com/norio-nomura/Base32.git", from: "0.9.0"),
     ],
     targets: [
